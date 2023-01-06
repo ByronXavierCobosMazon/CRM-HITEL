@@ -1,0 +1,53 @@
+:root{
+    --primary: #111854;
+    --ligth:#ffffff;
+    --grey:#efefef;
+}
+body{
+    background-image: url(../images/bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+a:hover{
+    text-decoration: none;
+}
+.bt {
+    
+    --c: grey;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;     
+}
+.bg-prymary{ background-color: var(--primary )!important;}
+#sidebar-container {
+    min-height: 100vh;
+}
+#sidebar-container.logo {
+    padding: .875rem 1.25rem;
+}
+#sidebar-container.menu{
+    width: 18 rem;
+}
+.control{
+    background-color: aliceblue;
+}
